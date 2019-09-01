@@ -105,7 +105,7 @@ public class Sessions {
             if (board[0][i] + board[1][i] + board[2][i] == desiredSum) return true;
         }
         if (board[0][0] + board[1][1] + board[2][2] == desiredSum) return true;
-        if (board[0][2] + board[1][1] + board[2][1] == desiredSum) return true;
+        if (board[0][2] + board[1][1] + board[2][0] == desiredSum) return true;
         return false;
     }
 
